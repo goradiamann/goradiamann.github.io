@@ -522,7 +522,7 @@ class ChatBot {
                     
                     <div class="chat-messages" id="chatMessages">
                         <div class="message system">
-                            Welcome to AI Assistant! I can answer any questions about Professor Luarn's courses or AI topics.
+                            Welcome to Mann's AI Assistant! I can answer any question about everything.
                         </div>
                     </div>
                     
@@ -740,7 +740,7 @@ class ChatBot {
         if (recentHistory.length === 0) {
             // If no history, show welcome message
             setTimeout(() => {
-                this.addMessage('Hello! I\'m AI Assistant v6. Do you have any questions about Professor Luarn\'s courses or AI topics?', 'ai');
+                this.addMessage('Hello! I\'m  Mann AI Assistant v6. Do you have any questions about the World in general?', 'ai');
             }, 1000);
         }
     }
